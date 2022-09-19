@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Barriecito&display=swap");
+
+body {
+  font-family: "Barriecito", cursive;
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+button {
+  background-color: black;
+  color: white;
+  padding:10px;
+}
