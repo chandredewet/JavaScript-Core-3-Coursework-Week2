@@ -20,10 +20,17 @@ function getImage() {
       dogFirstPic.src = jsonResponse.message;
       dogFirstPic.alt = "Dog Pic";
       dogFirstLi.appendChild(dogFirstPic);
-      document.getElementById("photoList").insertBefore(dogFirstLi, referenceNode)appendChild(dogFirstLi);
+      document
+        .getElementById("photoList")
+        .insertBefore(dogFirstLi, photoList.firstChild);
     })
     .catch((error) => {
       // Handle the error
       console.log(error);
     });
+}
+
+function removeImage() {
+  let ulDog = document.getElementById("photoList");
+  ulDog.removeChild(photoList.firstChild);
 }

@@ -6,14 +6,14 @@ body {
 }
 
 h1 {
-  margin: 0;
+  margin: 25px 0 0 0;
 }
 #displayContainer {
   margin: 0 auto;
   width: 100vw;
   text-align: center;
   font-family: "Dangrek", cursive;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 ul {
